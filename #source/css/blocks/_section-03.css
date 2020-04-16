@@ -1,0 +1,17 @@
+.standards__list {
+  -webkit-column-count: 2;
+  column-count: 2;
+  list-style-position: inside;
+  list-style-type: decimal; }
+
+.standards__item {
+  font-family: "Museo Sans Cyrl 900";
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  padding-left: 49px; }
+  .standards__item:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0; }

@@ -1,0 +1,48 @@
+.sec-3 {
+	margin-bottom: 70px;
+
+	@media (min-width: $md2+px) {
+		margin-bottom: 170px;
+	}
+}
+.standards {
+	&__list {
+		margin-bottom: 45px;
+
+		@media (max-width: $md3+px) {
+			padding-left: 40px;
+		}
+		@media (min-width: $md3+px) {
+			column-count: 2;
+			list-style-position: inside;
+			list-style-type: decimal;
+			padding: 0 50px;
+		}
+		@media (min-width: $md2+px) {
+			margin-bottom: 125px;
+		}
+	}
+	&__item {
+		font-family: "Museo Sans Cyrl 900";
+		font-size: 14px;
+		line-height: 32px;
+		position: relative;
+		padding-left: 19px;
+		@media (min-width: $md4+px) {
+			font-size: 20px;
+			padding-left: 49px;
+		}
+		&:after {
+			content: "\f00c";
+			font-family: "FontAwesome";
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 24px;
+
+			@media (max-width: $md4+px) {
+				font-size: 14px;
+			}
+		}
+	}
+}

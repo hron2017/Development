@@ -1,0 +1,41 @@
+//<BUTTONS>====================================================================================================
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: left;
+  color: #00adef;
+  font-family: "Museo Sans Cyrl 700";
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  position: relative;
+  border-bottom: 1px solid #00adef;
+  max-width: 401px;
+  width: 100%;
+  @include anim(0.3s, 0s);
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 80px;
+    height: 1px;
+    background-color: #00adef;
+
+    @media (max-width: $md4+px) {
+      width: 40px;
+    }
+  }
+
+  &:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    &:after {
+      background-color: #000000;
+    }
+  }
+  &.fw {
+    width: 100%;
+  }
+}
+//</BUTTONS>====================================================================================================

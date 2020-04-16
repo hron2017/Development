@@ -1,0 +1,78 @@
+.news {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	&__item {
+		flex: 1 1 51%;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+
+		@media (max-width: $md3+px) {
+			&:nth-child(even) {
+				padding-bottom: 90%;
+			}
+		}
+		@media (min-width: $md3+px) {
+			flex: 1 1 33.33%;
+			&:nth-child(odd) {
+				padding: 80px 80px 80px 80px;
+			}
+		}
+		@media (min-width: 940px) and (max-width: 1000px) {
+			&:nth-child(odd) {
+				padding: 35px 50px 33px 60px;
+			}
+		}
+	}
+	&__item-title {
+		font-family: "Museo Sans Cyrl 900";
+		font-size: 40px;
+		line-height: 56px;
+	}
+	&__item-heading {
+		color: #ffffff;
+		font-family: "Museo Sans Cyrl 300";
+		font-size: 15px;
+		line-height: 28px;
+		padding: 6px 48px;
+		display: inline-block;
+		background: #000;
+		margin-bottom: 22px;
+
+		@media (min-width: 940px) and (max-width: 1000px) {
+			padding: 6px 3px;
+		}
+		@media (min-width: 1200px) {
+			margin-bottom: 40px;
+		}
+	}
+	&__item-text {
+		font-family: "Museo Sans Cyrl 900";
+		font-size: 20px;
+		margin-bottom: 26px;
+		line-height: 32px;
+		color: #000;
+
+		@media (min-width: 940px) and (max-width: 1000px) {
+			font-size: 17px;
+			line-height: 24px;
+		}
+		@media (min-width: 1200px) {
+			margin-bottom: 76px;
+		}
+	}
+	&__item-date {
+		opacity: 0.5;
+		color: #000;
+		font-family: "Museo Sans Cyrl 300";
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.btn {
+		max-width: 233px;
+	}
+}

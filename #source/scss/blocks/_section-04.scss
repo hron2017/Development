@@ -1,0 +1,101 @@
+.sec-4 {
+	margin-bottom: 80px;
+
+	@media (min-width: $md4+px) {
+		padding-bottom: 55px;
+		padding-top: 65px;
+	}
+
+	@media (min-width: $md3+px) {
+		padding-top: 105px;
+		background-image: url(../img/sec-04.png);
+		background-position: 85% 0;
+		background-repeat: no-repeat;
+	}
+	@media (min-width: $md3+px) and (max-width: $md2+px) {
+		background-size: 40%;
+	}
+	@media (min-width: $md2+px) {
+		background-size: auto;
+	}
+	.section-head {
+		&__title {
+			max-width: 360px;
+			padding: 0;
+
+			@media (min-width: 1200px) {
+				max-width: 560px;
+			}
+			&:after {
+				content: "";
+				display: none;
+			}
+		}
+	}
+	.btn {
+		font-size: 10px;
+	}
+}
+.section-content {
+	padding-left: 50px;
+	padding-right: 40px;
+	@media (min-width: $md2+px) {
+		padding-left: 160px;
+		padding-right: 80px;
+	}
+}
+.innovation {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	@media (min-width: $md4+px) {
+		margin-bottom: 58px;
+	}
+	@media (min-width: $md2+px) {
+		margin-bottom: 108px;
+	}
+	&__item {
+		flex: 0 1 40%;
+		background-color: #00adef;
+		padding: 35px 15px 15px 15px;
+		display: flex;
+		align-items: flex-end;
+		position: relative;
+		margin-bottom: 30px;
+		@media (max-width: $md4+px) {
+			flex: 1 1 51%;
+		}
+
+		@media (min-width: $md3+px) {
+			min-height: 148px;
+			padding: 40px;
+			flex: 0 1 22%;
+			margin-bottom: 0;
+		}
+		@media (min-width: $md2+px) {
+			min-height: 248px;
+		}
+	}
+
+	&__item-icon {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		@media (min-width: 1200px) {
+			top: 22px;
+			right: 22px;
+		}
+	}
+
+	&__item-name {
+		color: #ffffff;
+		font-family: "Museo Sans Cyrl 900";
+		font-size: 14px;
+		line-height: 20px;
+		@media (min-width: $md2+px) {
+			font-size: 20px;
+			line-height: 32px;
+		}
+	}
+}
