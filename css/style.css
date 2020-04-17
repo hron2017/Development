@@ -228,6 +228,14 @@ body.ie .ibg img {
   .tab__item.active {
     display: block; }
 
+.scroll {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1111;
+  background: #000; }
+
 .form__btn {
   padding: 0;
   border: none;
