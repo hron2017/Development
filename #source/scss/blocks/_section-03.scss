@@ -9,14 +9,14 @@
 	&__list {
 		margin-bottom: 45px;
 
-		@media (max-width: $md3+px) {
-			padding-left: 40px;
+		@media (min-width: $md3+px) {
 		}
 		@media (min-width: $md3+px) {
 			column-count: 2;
 			list-style-position: inside;
 			list-style-type: decimal;
 			padding: 0 50px;
+			padding-left: 40px;
 		}
 		@media (min-width: $md2+px) {
 			margin-bottom: 125px;

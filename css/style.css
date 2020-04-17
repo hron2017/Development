@@ -1111,45 +1111,45 @@ font-family: "FontAwesome";
   .sec-2 .btn {
     font-size: 10px; }
 
-.teams-contant {
+.teams-content {
   max-width: 350px;
   margin-left: auto;
   margin-right: 50px; }
   @media (max-width: 600px) {
-    .teams-contant {
+    .teams-content {
       padding-bottom: 40px;
       max-width: 235px;
       margin-right: 0; } }
   @media (min-width: 992.98px) {
-    .teams-contant {
+    .teams-content {
       margin-right: 140px;
       max-width: 560px; } }
-  .teams-contant__title {
+  .teams-content__title {
     color: #ffffff;
     font-family: "Museo Sans Cyrl 100";
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 20px; }
     @media (min-width: 992.98px) {
-      .teams-contant__title {
+      .teams-content__title {
         font-size: 32px;
         line-height: 48px;
         margin-bottom: 63px; } }
-  .teams-contant__text {
+  .teams-content__text {
     color: #ffffff;
     font-family: "Museo Sans Cyrl 500";
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 9px; }
     @media (min-width: 992.98px) {
-      .teams-contant__text {
+      .teams-content__text {
         font-size: 16px;
         line-height: 28px;
         margin-bottom: 20px; } }
-  .teams-contant .mb {
+  .teams-content .mb {
     margin-bottom: 25px; }
     @media (min-width: 992.98px) {
-      .teams-contant .mb {
+      .teams-content .mb {
         margin-bottom: 45px; } }
 
 .architect-wrapper {
@@ -1189,16 +1189,14 @@ font-family: "FontAwesome";
 
 .standards__list {
   margin-bottom: 45px; }
-  @media (max-width: 767.98px) {
-    .standards__list {
-      padding-left: 40px; } }
   @media (min-width: 767.98px) {
     .standards__list {
       -webkit-column-count: 2;
       column-count: 2;
       list-style-position: inside;
       list-style-type: decimal;
-      padding: 0 50px; } }
+      padding: 0 50px;
+      padding-left: 40px; } }
   @media (min-width: 992.98px) {
     .standards__list {
       margin-bottom: 125px; } }
