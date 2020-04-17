@@ -836,7 +836,7 @@ font-family: "FontAwesome";
       font-size: 32px;
       line-height: 48px; } }
 
-.intro-contant {
+.intro-content {
   position: absolute;
   top: 24%;
   left: 0;
@@ -845,32 +845,32 @@ font-family: "FontAwesome";
   display: flex;
   width: 100%; }
   @media (min-width: 576.98px) {
-    .intro-contant {
+    .intro-content {
       top: 32%; } }
   @media (max-width: 767.98px) {
-    .intro-contant__item-head {
+    .intro-content__item-head {
       padding: 0 10px; } }
   @media (min-width: 576.98px) {
-    .intro-contant__item-head {
+    .intro-content__item-head {
       margin-left: 80px;
       padding-top: 10px; } }
   @media (max-width: 576.98px) {
-    .intro-contant__item-left {
+    .intro-content__item-left {
       position: absolute;
       top: 127%; } }
-  .intro-contant__right {
+  .intro-content__right {
     margin-left: auto;
     margin-right: 40px;
     position: relative; }
     @media (max-width: 576.98px) {
-      .intro-contant__right {
+      .intro-content__right {
         position: absolute;
         top: 127%;
         right: 0;
         margin-right: 0; }
-        .intro-contant__right:after, .intro-contant__right:before {
+        .intro-content__right:after, .intro-content__right:before {
           display: none; } }
-    .intro-contant__right:after, .intro-contant__right:before {
+    .intro-content__right:after, .intro-content__right:before {
       content: "";
       background-color: #ffffff;
       width: 1px;
@@ -878,9 +878,9 @@ font-family: "FontAwesome";
       position: absolute;
       left: 50%;
       z-index: 1; }
-    .intro-contant__right:after {
+    .intro-content__right:after {
       top: -168px; }
-    .intro-contant__right:before {
+    .intro-content__right:before {
       bottom: -168px; }
 
 .intro-art__item {
