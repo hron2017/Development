@@ -1255,10 +1255,9 @@ font-family: "FontAwesome";
 .section-content {
   padding-left: 50px;
   padding-right: 40px; }
-  @media (min-width: 992.98px) {
+  @media (min-width: 1400px) {
     .section-content {
-      padding-left: 160px;
-      padding-right: 80px; } }
+      padding: 0; } }
 
 .innovation {
   display: -webkit-box;

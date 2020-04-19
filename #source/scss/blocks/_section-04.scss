@@ -39,9 +39,8 @@
 .section-content {
 	padding-left: 50px;
 	padding-right: 40px;
-	@media (min-width: $md2+px) {
-		padding-left: 160px;
-		padding-right: 80px;
+	@media (min-width: 1400px) {
+		padding: 0;
 	}
 }
 .innovation {
